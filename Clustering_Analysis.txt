@@ -1,0 +1,37 @@
+                                   @ Mall Customer Data Sgmentation
+
+@ Source : Kaggle
+
+@ Overview of the project :
+--> In this project we are going to perform clustering analysis on mall customer dataset. Further , we are going to 
+visualize the dataset set in different ways(As Clustering means grouping, it means we will plot the data for some dist
+ributions or kind of density plots) and further on we are going to deploy different clustering algorithms in order to under
+stand the dataset more clearly and with the proper implementation of clustering algorithms we will able to understnad the
+format of the data adn can make future insights.
+
+
+@ Understanding the dataset :
+--> We are taking dataset from kaggle , mall_customers dataset. It is actually a simple dataset and its quit easy to understand
+the pattern of the data. As it has unique customer id , gender of customer , age , annual income in k-dollars andd the
+speding course.
+
+@ Steps for the task :
+1) Our very first step will be importing the required python libraries like numpy, pandas, matplotlib, seaborn, scikit-learn
+
+2) In the 2nd step we will import the dataset and will read the dataset. And also we will perform some modifications on 
+the dataset such as we are going to describe the data and aslo check for the null values.
+
+3) In this step we are going to visualize the dataset for different aspects. By visualizing , it will be easy to find 
+corelations in the data. By visualizing we can compare the male and female shopping score and their annual income , we 
+can see the distribution of the age so we can summarise what age group is prefered shopping the most , also we are going
+to see distribution for annual income and spending scrores too.
+
+4) Later on we are now moving towards our main objective of the project is to clustring analysis on the mall_customer
+dataset. 
+
+5) Continue to the 4th step , 1st we will go for K-means algorithm , where we will find no of clusters by using the elbow
+method and we are going to visualize this clusters for better understanding. And with this algorithm we will able to see
+the segments of the data which our aim.
+
+6) Onwards, we use hierachical and the density algorithms and in this algorithms we will also going to make senments for the
+dataset.
